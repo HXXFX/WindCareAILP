@@ -34,6 +34,21 @@ body, html {
     font-weight: bold;
 }
 
+#infoText {
+    position: absolute;
+    top: calc(50% + 50px); /* Adjust position to be 30px below the button */
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: rgb(131, 131, 131); /* Light grey text color */
+    font-size: 16px;
+    background-color: transparent; /* Invisible background */
+    border: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    padding: 0;
+}
+
 footer {
     position: absolute;
     bottom: 0;
